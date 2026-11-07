@@ -47,7 +47,6 @@ def main() -> None:
         "}\n",
         encoding="utf-8",
     )
-    (ROOT / "WORDLIST-LICENSE.txt").write_bytes(download("LICENSE", 16384))
     print(f"Bundled {len(words)} five-letter words.")
 
 

@@ -1,9 +1,27 @@
-# Omarchy Wordle
+# Wordle
 
-Play the NYT daily Wordle from an Omarchy bar popup. Type guesses while the popup has focus. Use the calendar button to select any puzzle date from June 19, 2021 through today.
+Play NYT Wordle from the Omarchy bar. Click the **W** widget, type a five-letter guess, and press **Enter**.
 
-Puzzle answers load from `https://www.nytimes.com/svc/wordle/v2/YYYY-MM-DD.json` when the panel opens or when a date changes. Guesses and completion state stay in `~/.local/state/omarchy/wordle-games.json`.
+[![Wordle preview](preview.png)](preview.png)
 
-The offline guess list is bundled in `Dictionary.js`. It comes from the MIT-licensed `darkermango/5-Letter-words` list; `tools/build_dictionary.py` refreshes it.
+## Install
 
-Run model checks with `node tests/model.test.js`.
+omarchy plugin enable tibevdb.wordle --section centerEnd
+
+## Usage
+
+- Type guesses while the popup has focus. Press **Enter** to submit and **Backspace** to edit.
+- Click the calendar icon to choose a puzzle date. Dates before Wordle's first puzzle or after today are disabled.
+- Guesses save separately for each puzzle date.
+
+### Storage
+
+Saved games live in `~/.local/state/omarchy/wordle-games.json`. The accepted-guess list is bundled in `Dictionary.js` from [darkermango/5-Letter-words](https://github.com/darkermango/5-Letter-words). Both copyright notices and MIT terms appear in `LICENSE`.
+
+## Remove
+
+omarchy plugin remove tibevdb.wordle
+
+## Disclaimer
+
+Wordle is a New York Times game. This unofficial plugin is not affiliated with or endorsed by The New York Times Company.

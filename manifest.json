@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "author": "tibevdb",
   "license": "MIT",
-  "description": "Play NYT Wordle from the Omarchy bar, with recent puzzles and date selection.",
+  "description": "Play NYT Wordle from the Omarchy bar, with a calendar of available puzzles.",
   "kinds": ["bar-widget"],
   "entryPoints": {
     "barWidget": "BarWidget.qml"
