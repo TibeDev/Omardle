@@ -1,12 +1,16 @@
 # Wordle
 
-Play NYT Wordle from the Omarchy bar. Click the **W** widget, type a five-letter guess, and press **Enter**.
+An [Omarchy](https://omarchy.org/) plugin for playing Wordle straight from your bar. Click the **W** widget, type a five-letter guess, and press **Enter**.
 
 [![Wordle preview](preview.png)](preview.png)
 
 ## Install
 
-omarchy plugin enable tibevdb.wordle --section centerEnd
+```bash
+omarchy plugin add https://github.com/TibeDev/Omardle.git --enable
+```
+
+The GitHub repository is private; installers need repository access.
 
 ## Usage
 
@@ -20,7 +24,9 @@ Saved games live in `~/.local/state/omarchy/wordle-games.json`. The accepted-gue
 
 ## Remove
 
+```bash
 omarchy plugin remove tibevdb.wordle
+```
 
 ## Disclaimer
 
