@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "tibevdb.wordle",
+  "name": "Wordle",
+  "version": "1.0.0",
+  "author": "tibevdb",
+  "license": "MIT",
+  "description": "Play NYT Wordle from the Omarchy bar, with recent puzzles and date selection.",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Wordle",
+    "category": "Games",
+    "allowMultiple": false,
+    "defaultSection": "centerEnd"
+  }
+}
