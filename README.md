@@ -31,3 +31,5 @@ omarchy plugin remove tibevdb.wordle
 ## Disclaimer
 
 Wordle is a New York Times game. This unofficial plugin is not affiliated with or endorsed by The New York Times Company.
+
+This plugin was vibe coded with [OpenCode](https://opencode.ai/).
