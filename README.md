@@ -1,4 +1,4 @@
-# Wordle
+# Omardle
 
 An [Omarchy](https://omarchy.org/) plugin for playing Wordle straight from your bar. Click the **W** widget, type a five-letter guess, and press **Enter**.
 
